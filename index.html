@@ -11,40 +11,54 @@
         <img src="logo" class="logo-img" />
        <nav class="nav-header">
           <ul>
-            <li>Proyectos</li>
-            <li>conocimientos</li>
-            <li>Redes</li>
+            <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#conosimientos">conocimientos</a><li>
+           <li><a href="#redes">Redes</a></li>
           </ul>
         </nav>
       <button
         id="button-english" 
         class="button-english"
-        type="button">English
+        type="button">
+        English
       </button>
       <img src="link-to-your-photo.jpg" alt="Foto de Perfil">
       <p>Una breve descripción sobre ti</p>
     </header>
-    <main>
-      <h1>Proyectos</h1>
-      <section>
-        <h2>Proyecto 1</h2>
+    <main class="main">
+      <h1 id="proyectos">Proyectos</h1>
+         <div>
+        <h2>Lista de tareas</h2>
         <a target="_blank" href="link-to-project-1.html">
-          <div>
             <img src="link-to-project-1-image.jpg" alt="Imagen del Proyecto 1">
-            <p>Descripción corta del Proyecto 1</p>
-          </div>
-        </a>
-        <h2>Proyecto 2</h2>
-        <a  target="_blank" href="link-to-project-2.html">
-          <div>
+            <p>App para crear una lista de tareas</p>
+          </a>
+       </div>
+       <div>
+          <h2>Calculadora</h2>
+           <a  target="_blank" href="link-to-project-2.html">
             <img src="link-to-project-2-image.jpg" alt="Imagen del Proyecto 2">
-            <p>Descripción corta del Proyecto 2</p>
+            <p>Calculadora con operaciones basicas</p>
+            </a>
+         </div>
+         <div>
+          <h2>Tienda online</h2>
+           <a target="_blank" href="link-to-project-2.html">
+            <img src="link-to-project-2-image.jpg" alt="Imagen del Proyecto 2">
+            <p> Tienda dinamica consumiendo una api para los productos</p>
+           </a>
+           </div>
+        <div>
+          <h2>Memoria</h2>
+          <a  target="_blank" href="link-to-project-2.html">
+            <img src="link-to-project-2-image.jpg" alt="Imagen del Proyecto 2">
+            <p>Clasico juego de memoria con  cartas</p>
+          </a>
           </div>
-        </a>
         <!-- Agrega más proyectos si es necesario -->
-      </section>
+      </main>
       <section>
-        <h1>Conocimientos</h1>
+        <h1 id="conosimientos">Conocimientos</h1>
         <div>
           <i class="fas fa-book"></i>
           <p>Curso 1</p>
@@ -53,11 +67,11 @@
           <i class="fas fa-code"></i>
           <p>Curso 2</p>
         </div>
+   
         <!-- Agrega más cursos si es necesario -->
       </section>
-    </main>
     <footer>
-      <h3>Mis redes sociales</h3>
+      <h3 id="redes">Mis redes sociales</h3>
       <a target="_blank" href="link-to-your-linkedin-profile">
         <div>
           <i class="fab fa-linkedin"></i>
