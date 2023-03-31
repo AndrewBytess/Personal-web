@@ -15,19 +15,13 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-size: 62.5%;
+  font-size: 1.2em;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: var(--back-grey);
-}
-body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
- font-size: 1.2em;
 }
-
 header {
   background-color: var(--yale-blue);
   color:var(--yellow-green-crayola-2);
@@ -91,30 +85,21 @@ main {
   margin: 0;
 }
 
-.main div img {
-  width: 100%;
-  height: auto;
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
-section {
-  width: 30%;
+.div-courses {
+  display: flex;
+  justify-content: center;
 }
 
-section h2 {
-  margin: 0;
-}
-
-section a div {
-  background-color: #ddd;
-  padding: 1em;
-  border-radius: 1em;
-  text-align: center;
-}
-
-section a div img {
-  width: 100%;
+.div-courses img {
+  width: 2.5em;
+  height: 2.5em;
+  margin: 1em 0.50em;
 }
 
 footer {
@@ -124,17 +109,14 @@ footer {
   padding: 2em 0;
 }
 
-footer a div {
-  background-color: white;
-  color:var(--yale-blue);
+
+footer img {
+  font-size: 1.5em;
   width: 2em;
   height: 2em;
   border-radius: 50%;
-  display: inline-block;
-  margin: 0 1em;
+  padding: 0.5em;
+  justify-content: center;
+  
 }
 
-footer a div i {
-  font-size: 1.5em;
-  padding: 0.5em;
-}
